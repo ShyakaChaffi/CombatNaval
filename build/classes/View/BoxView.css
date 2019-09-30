@@ -1,0 +1,83 @@
+.board {
+    -fx-background-size: auto;
+
+    -fx-border-color: white; 
+    -fx-background-image : url("emptyCase.png");
+}
+
+.empty {
+    /*    -fx-background-position: center;
+        -fx-background-size: stretch;
+        -fx-background-image: empty; */
+    -fx-border-color: black; 
+
+}
+
+.root{
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image : url("wallpaper.jpg");
+}
+
+
+.SmallBoat1 {
+    -fx-border-color: green;
+    -fx-border-width : 2;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("player1Small.jpg");
+}
+
+.SmallBoat2 {
+    -fx-border-color: red;
+    -fx-border-width : 2;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("player2Small.jpg");
+}
+
+.BigBoat1 {
+    -fx-border-color: green;
+    -fx-border-width : 2;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("player1Big.jpg");
+}
+
+.BigBoat2 {
+    -fx-border-color: red;
+    -fx-border-width : 2;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("player2Big.jpg");
+}
+
+.mine {
+    -fx-border-color: black;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("mine.png");
+}
+
+.mineRadio {
+    -fx-border-color: black;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("mineRadio.png");
+}
+
+.Position {
+    -fx-border-color: red;
+    -fx-border-widht : 4;
+    /*    -fx-background-position: center;
+        -fx-background-size: stretch;
+        -fx-background-image: url("move.jpg"); */
+}
+
+.mineRadioExploded {
+    -fx-border-color: green;
+    -fx-background-position: center;
+    -fx-background-size: stretch;
+    -fx-background-image: url("mineRadioActive.png");
+}
+
